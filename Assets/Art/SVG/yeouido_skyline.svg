@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#09142a"/>
+      <stop offset="100%" stop-color="#13294f"/>
+    </linearGradient>
+    <linearGradient id="waterGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0c1d3e"/>
+      <stop offset="100%" stop-color="#060f24"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1920" height="1080" fill="url(#skyGrad)"/>
+  <path d="M0 756 L1920 756 L1920 1080 L0 1080 Z" fill="url(#waterGrad)"/>
+
+  <g fill="#162f58">
+    <rect x="60" y="510" width="70" height="240"/>
+    <rect x="130" y="540" width="55" height="210"/>
+    <rect x="185" y="485" width="80" height="265"/>
+    <rect x="265" y="525" width="68" height="225"/>
+    <rect x="333" y="470" width="90" height="280"/>
+    <rect x="423" y="530" width="62" height="220"/>
+    <rect x="485" y="500" width="72" height="250"/>
+    <rect x="557" y="545" width="50" height="205"/>
+  </g>
+
+  <g fill="none" stroke="#2c4d7f" stroke-width="14" stroke-linecap="round">
+    <path d="M120 700 Q280 560 440 700"/>
+    <path d="M120 700 L440 700"/>
+    <path d="M175 700 L175 735"/>
+    <path d="M260 700 L260 745"/>
+    <path d="M345 700 L345 738"/>
+  </g>
+
+  <g fill="#1b3b66">
+    <path d="M1420 730 L1480 430 L1550 430 L1615 730 Z"/>
+    <path d="M1480 430 L1550 430 L1578 372 L1518 372 Z"/>
+    <rect x="1501" y="430" width="28" height="300" fill="#274d82"/>
+  </g>
+
+  <g fill="#1f3f6d" opacity="0.65">
+    <path d="M0 820 C240 780 520 860 760 820 C980 782 1220 858 1480 822 C1660 796 1800 830 1920 818 L1920 1080 L0 1080 Z"/>
+  </g>
+</svg>
